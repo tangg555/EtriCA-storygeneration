@@ -87,9 +87,9 @@ The huggingface pretrained models (e.g. `bart-base`) can be downloaded from [her
 
 Please read the codes in `tasks`, and you will understand how it works.
 
-**If you don't care the baselines and experiments**, please only read following files:
+**If you don't care the evaluation and experiments**, please only read following files:
 - (1) `tasks/event-trigger/train.py` to train different models.
-- (2) `tasks/event-trigger/predict.py` to test different models.
+- (2) `tasks/event-trigger/test.py` to test different models.
 
 #### 3.2  commands for EtriCA
 

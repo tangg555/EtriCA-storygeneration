@@ -1,5 +1,5 @@
 # EtriCA-storygeneration
-This repository is the code and resources for the paper [EtriCA: Event-Triggered Context-Aware Story Generation Augmented by Cross Attention]() 
+This repository is the code and resources for the paper [EtriCA: Event-Triggered Context-Aware Story Generation Augmented by Cross Attention](https://arxiv.org/abs/2210.12463) 
 
 To make sure everyone can easily reproduce our work, I will do my best to ensure every essential resource is included in this repository, and the README covers all the information you need to implement our work.
 
@@ -172,6 +172,11 @@ If you found this repository or paper is helpful to you, please cite our paper. 
 
 This is the arxiv citation:
 ```angular2
-
+@article{tang2022etrica,
+  title={EtriCA: Event-Triggered Context-Aware Story Generation Augmented by Cross Attention},
+  author={Tang, Chen and Lin, Chenghua and Huang, Henglin and Guerin, Frank and Zhang, Zhihao},
+  journal={arXiv preprint arXiv:2210.12463},
+  year={2022}
+}
 ```
 

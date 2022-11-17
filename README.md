@@ -45,7 +45,7 @@ If you want to run this code, you have to at least satisfy the following require
 ### 1. Install packages
 Install the aforementioned prerequisites, and run
 ```shell
-python -r requirements.txt
+pip install -r requirements.txt
 ```
 
 ### 2. Collect Datasets and Resources

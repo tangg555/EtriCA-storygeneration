@@ -168,9 +168,9 @@ I wrote two scripts to download models from huggingface website.
 One is `tasks/download_hf_models.sh`, and another is `src/utils/huggingface_helper.py`
 
 ## Citation
-If you found this repository or paper is helpful to you, please cite our paper. It is accepted by EMNLP 2022 Findings, but currently the citations of EMNLP 2022 papers have not come out yet.
+If you found this repository or paper is helpful to you, please cite our paper. It is accepted by EMNLP 2022 Findings.
 
-This is the arxiv citation:
+Arxiv Reference:
 ```angular2
 @article{tang2022etrica,
   title={EtriCA: Event-Triggered Context-Aware Story Generation Augmented by Cross Attention},
@@ -180,3 +180,22 @@ This is the arxiv citation:
 }
 ```
 
+EMNLP Reference:
+```angular2
+@inproceedings{tang-etal-2022-etrica,
+    title = "{E}tri{CA}: Event-Triggered Context-Aware Story Generation Augmented by Cross Attention",
+    author = "Tang, Chen  and
+      Lin, Chenghua  and
+      Huang, Henglin  and
+      Guerin, Frank  and
+      Zhang, Zhihao",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2022",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.findings-emnlp.403",
+    pages = "5504--5518",
+    abstract = "One of the key challenges of automatic story generation is how to generate a long narrative that can maintain fluency, relevance, and coherence. Despite recent progress, current story generation systems still face the challenge of how to effectively capture contextual and event features, which has a profound impact on a model{'}s generation performance. To address these challenges, we present EtriCA, a novel neural generation model, which improves the relevance and coherence of the generated stories through residually mapping context features to event sequences with a cross-attention mechanism. Such a feature capturing mechanism allows our model to better exploit the logical relatedness between events when generating stories. Extensive experiments based on both automatic and human evaluations show that our model significantly outperforms state-of-the-art baselines, demonstrating the effectiveness of our model in leveraging context and event features.",
+}
+```
